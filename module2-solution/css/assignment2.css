@@ -1,1 +1,166 @@
+<style>
 
+*{
+box-sizing: border-box;
+}
+
+
+#container{
+width: 2100px;
+position: relative;
+height: 1000px;
+padding: 10px;
+}
+
+#heading{
+position: relative;
+left: 50%;
+}
+
+#chicken{
+background-color: #797877;
+width: 100px;
+height: 50px;
+position: absolute;
+left: 28.19%;
+border: 1px solid black;
+padding: 15px;
+margin-top: 10px;
+}
+
+#beef{
+background-color: #800000;
+width: 100px;
+height: 50px;
+position: absolute;
+left: 61.18%;
+border: 1px solid black;
+padding-left: 25px;
+padding-top: 10px;
+margin-top: 10px;
+}
+
+#sushi{
+background-color: #26A448;
+width: 100px;
+height: 50px;
+position: absolute;
+left: 94.15%;
+border: 1px solid black;
+padding: 10px;
+margin-top: 10px;
+}
+
+#loremchicken, #lorembeef, #loremsushi{
+  width: 32.33%;
+  border: 1px solid black;
+  padding: 60px;
+  float: left;
+  margin: 10px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+#loremchicken, #lorembeef {
+width:16.16%;
+}
+
+#loremsushi{
+width: 33%;
+height: 5px;
+position: absolute;
+top: 400px;
+border: 1px solid black;
+float: none;
+padding: 80px;
+}
+
+
+#chicken {
+font-size: 20px;
+background-color: #797877;
+width: 100px;
+height: 50px;
+left: 12.20%;
+}
+
+#beef {
+left: 29.15%;
+background-color: #800000;
+width: 100px;
+height: 50px;
+padding-left: 30px;
+}
+
+
+#sushi {
+left: 29.20%;
+top: 40%;
+padding-left: 30px;
+}
+
+
+#heading{
+position: relative;
+left: 12.5%;
+}
+}
+
+
+
+
+@media (max-width: 767px){
+
+#heading{
+position: relative;
+left: 12.5%;
+}
+
+#loremchicken, #lorembeef, #loremsushi{
+  width: 32.33%;
+  border: 1px solid black;
+  padding: 60px;
+  float: none;
+  margin: 10px;
+}
+
+#chicken{
+background-color: #797877;
+width: 100px;
+height: 50px;
+position: absolute;
+left: 28.19%;
+border: 1px solid black;
+padding: 15px;
+margin-top: 0px;
+}
+
+#beef{
+background-color: #800000;
+width: 100px;
+height: 50px;
+position: absolute;
+left: 28.19%;
+border: 1px solid black;
+padding-left: 25px;
+padding-top: 10px;
+margin-top: 0px;
+}
+
+#sushi{
+background-color: #26A448;
+width: 100px;
+height: 50px;
+position: absolute;
+left: 28.19%;
+border: 1px solid black;
+padding-left: 25px;
+padding-top: 10px;
+margin-top: 0px;
+}
+
+}
+
+</style>
